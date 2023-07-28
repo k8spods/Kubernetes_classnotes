@@ -9,3 +9,6 @@ to know the hostname  type
    hostname -i
 
 to change to root use the command sudo -i
+
+usermod -aG sudo k8spods  --adding the user k8spods to the sudo (sudo is super user do)
+usermod -aG docker k8spods -- adding the user k8spods to the docker group
